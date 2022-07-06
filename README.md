@@ -1,5 +1,5 @@
-#project-real-estate
-{03/07/2022}
+project-real-estate
+03/07/2022
 By **{Zablon Onchari Nyabuto}**
 ## Description
 This website is for a real estate by the name of Zablon's Properties. The website allows one to choose a property of their liking according to their location and price range. The website provides different payment options that clients can use as well as extra support for any of their needs.
