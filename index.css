@@ -60,7 +60,6 @@ header {
   align-self: end;
   color: white;
 }
-
 /* style body below header */
 .flex container {
   display: flex;
