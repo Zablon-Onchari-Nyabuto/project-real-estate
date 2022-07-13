@@ -1,38 +1,172 @@
-*{
-  background-color: white;
-  font-style: space grotesk;
+/* style the header and navigation bar */
+a:link {
+  color: green;
 }
-.topnav {
-  background-color: white;
-  overflow: hidden;
+.logo {
+  display: flex;
+  width: 30%;
+  height: 10%;
 }
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-flex container{
-  flex-direction: row;
-}
-h1{
-  text-align: center;
-  color: blue;
-}
-.column {
-  float: left;
-  width: 33.33%;
+ul {
+  list-style-type: none;
+  margin: 5px;
   padding: 5px;
 }
-image{
+li {
   float: left;
 }
-footer{
-  background-color: blue;
+a {
+  display: block;
+  padding: 8px;
+}
+.navbar {
+  display: flex;
   color: white;
+  font-family: Poppins;
+  justify-content: space-between;
+}
+.started {
+  color: white;
+  top: 900px;
+  left: 90px;
+  background-color: #ed661f;
+  padding: 1%;
+  font-size: 50px;
+  font-family: "Inter";
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 5px 10px;
+  color: #fff;
+}
+.logo h1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.ftbutton{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+}
+.leftbtns {
+  background-color: #0f298b;
+  align-self: end;
+  color: white;
+}
+
+/* style body below header */
+.flex container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 50px;
+  text-align: left;
+  align-items: center;
+}
+.paragraph2{
+  font-family: 'Poppins';
+  font-weight: 500;
+  width: 500px;
+  padding: 0px 50px;
+}
+.image1{
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content:start;
+}
+.button{
+  background-color: #0f298b;
+  color: white;
+}
+/* style the select bar */
+.select {
+  top: 950px;
+  right: 90px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 30px 20px;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: #fff;
+}
+
+/* style the choose section */
+.choose{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 50px;
+    text-align:left;
+    align-items: center;
+  }
+  .paragraph2{
+    font-family: 'Poppins';
+    font-weight: 500;
+    width: 500px;
+  }
+  .image2{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content:end;
+  }
+
+/* style our products */
+.products {
+  display: flex;
+  flex-direction: row;
+  top: 1050px;
+  right: 90px;
+  width: 50%;
+  padding: 30px 20px;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: #fff;
+  color: #0f298b;
+}
+.content{
+  text-align: center;
+  color: #0f298b; 
+}
+.content1{
+  text-align: center;
+}
+.column{
   float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* style the customer review */
+.customer {
+  text-align: center;
+  color: #0f298b;
+}
+.saying{
+  text-align: center;
+}
+.review {
+  display: flex;
+  flex-direction: row;
+}
+.button3 {
+  background-color: #0f298b;
+}
+
+/* style the footer table */
+
+.footer {
+  background-color: #0f298b;
+  display: 'flexgrow';
+  align-items: stretch;
+  justify-content: space-between;
 }
